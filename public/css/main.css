@@ -1,0 +1,32 @@
+.main-background {
+    background-color: gray;
+}
+
+.header {
+    text-align: center;
+    background-color: lightgray;
+}
+.btn-default {
+    background-color: lightgray;
+    border: none;
+}
+.btn-default:hover {
+    background-color: lightgray;
+    border: none;
+    color: green;
+}
+.header-logo {
+    margin-top: 10px;
+}
+.header-all {
+    margin-top: 10px;
+}
+.header-my {
+    margin-top: 10px;
+}
+.header-add {
+    margin-top: 10px;
+}
+.header-logout {
+    margin-top: 10px;
+}
