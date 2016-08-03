@@ -5,28 +5,119 @@
 .header {
     text-align: center;
     background-color: lightgray;
+    margin-bottom: 30px;
 }
 .btn-default {
     background-color: lightgray;
     border: none;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .btn-default:hover {
     background-color: lightgray;
     border: none;
-    color: green;
+    color: darkgreen;
+}
+.btn-primary {
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .header-logo {
-    margin-top: 10px;
+    margin-top: 5px;
+    font-size: 20px;
 }
 .header-all {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .header-my {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .header-add {
     margin-top: 10px;
 }
 .header-logout {
+    margin-top: 5px;
+    font-size: 20px;
+}
+.header-logout:hover {
+    color: red;
+}
+.header-login {
+    margin-top: 5px;
+}
+.add-input {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.add-btn {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: -10px;
+}
+
+.grid {
+    margin-left: 17%;
+    margin-right: 17%;
+
+}
+.grid-item {
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 5px;
+    float: left;
+    margin-bottom: 10px;
+}
+.img {
+    max-width: 200px;
+    max-height: 600px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.descrip {
+    background-color: darkgray;
     margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.bottom {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 45px;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.like {
+    margin-left: -10px;
+    width: 75px;
+    border-radius: 10px;
+}
+.fa-star-o {
+    /*width: 50px;*/
+    font-size: 25px;
+    margin-top: 6px;
+}
+.likenum {
+    margin-left: -10px;
+    margin-top: 8px;
+}
+
+.delete {
+    margin-left: 2px;
+    height: 49px;
+    border-radius: 10px;
+}
+.fa-times-circle-o {
+    font-size: 25px;
+}
+.delete:hover {
+    color: red;
 }
