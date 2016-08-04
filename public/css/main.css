@@ -39,7 +39,8 @@
     margin-top: 10px;
 }
 .header-logout {
-    margin-top: 5px;
+    margin-top: 15px;
+    color: black;
     font-size: 20px;
 }
 .header-logout:hover {
@@ -99,9 +100,16 @@
     margin-left: -10px;
     width: 75px;
     border-radius: 10px;
+    height: 49px;
+}
+.like:hover {
+    color: darkgreen;
 }
 .fa-star-o {
-    /*width: 50px;*/
+    font-size: 25px;
+    margin-top: 6px;
+}
+.fa-star {
     font-size: 25px;
     margin-top: 6px;
 }

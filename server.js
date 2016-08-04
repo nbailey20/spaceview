@@ -49,7 +49,6 @@ mongo.connect(process.env.MONGO_URI, function (err, db) {
 	passport.deserializeUser(function(id, done) {  
 		var Users = db.collection("clients");
     	Users.findOne({ twitterid: id }, function (err, user) {
-    		console.log(user);
         	done(err, user);
     	});
 	});

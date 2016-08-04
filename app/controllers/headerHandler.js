@@ -31,12 +31,12 @@ function drawHeader (data) {
         html += '<input name="add-descrip" class="form-control add-input" type="text" placeholder="Pic description...">';
         html += '<li role="separator" class="divider"></li><button id="add-pic" class="btn btn-primary add-btn" type="submit">GO</button>';
         html += '</div></form></div></div><div class="col-xs-5"></div><div class="col-xs-1">';
-        html += '<a class="btn btn-default" href="/logout"><i class="header-logout fa fa-power-off" aria-hidden="true"></i></a></div><div class="col-xs-1"></div></div>';
+        html += '<a class="btn" href="/logout"><i class="header-logout fa fa-power-off" aria-hidden="true"></i></a></div><div class="col-xs-1"></div></div>';
     }
     else {
         html += '<div class="header row"><div class="col-xs-1"></div><div class="col-xs-1">';
         html += '<a class="btn btn-default" href="/"><i class="header-logo fa fa-space-shuttle" aria-hidden="true"></i></a></div>';
-        html += '<div class="col-xs-1"><a class="btn btn-default" href="/"><p class="header-all">All Pics</p></a></div>';
+        html += '<div class="all col-xs-1"><a class="all btn btn-default" href="/"><p class="header-all">All Pics</p></a></div>';
         html += '<div class="col-xs-7"></div><div class="col-xs-1">';
         html += '<a class="btn btn-primary" href="/auth"><p class="header-login">Sign in with Twitter</p></a></div><div class="col-xs-1"></div></div>';
     }
